@@ -22,6 +22,11 @@ public class Car extends Vehicle {
         //Hint: Car extends Vehicle.
     }
 
+    public Car(String name, boolean isManual) {
+        super(name);
+        this.isManual = isManual;
+    }
+
 //    public Car(String name,boolean isManual) {
 //        super(name);
 //        this.isManual = isManual;
