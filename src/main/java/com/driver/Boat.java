@@ -4,6 +4,9 @@ public class Boat implements WaterVehicle{
     private String name;
     private int capacity;
 
+   Boat(){
+       return;
+   }
     Boat(String name, int capacity){
         this.name = name;
         this.capacity = capacity;
